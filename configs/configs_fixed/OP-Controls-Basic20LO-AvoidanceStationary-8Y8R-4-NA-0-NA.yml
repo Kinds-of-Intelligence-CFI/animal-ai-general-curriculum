@@ -1,0 +1,55 @@
+!ArenaConfig
+arenas:
+  0: !Arena
+    pass_mark: 30 #total score to pass
+    t: 750
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 1} #Agent Position
+      rotations: [0] #Agent Rotation
+    - !Item
+      name: GoodGoalMulti #GoodGoalMultiName
+      positions:
+      - !Vector3 {x: 12.5, y: 0, z: 12.5} #GoodGoalMulti Position
+      - !Vector3 {x: 22.5, y: 0, z: 12.5} #GoodGoalMulti Position
+      - !Vector3 {x: 17.5, y: 0, z: 17.5} #GoodGoalMulti Position
+      - !Vector3 {x: 27.5, y: 0, z: 17.5} #GoodGoalMulti Position
+      - !Vector3 {x: 12.5, y: 0, z: 22.5} #GoodGoalMulti Position
+      - !Vector3 {x: 22.5, y: 0, z: 22.5} #GoodGoalMulti Position
+      - !Vector3 {x: 17.5, y: 0, z: 27.5} #GoodGoalMulti Position
+      - !Vector3 {x: 27.5, y: 0, z: 27.5} #GoodGoalMulti Position
+      rotations: [0,0,0,0,0,0,0,0] # GoodGoalMulti rotation
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+      - !Vector3 {x: 4, y: 4, z: 4} #GoodGoalMulti Size
+    - !Item
+      name: BadGoal #BadGoalName
+      positions:
+      - !Vector3 {x: 17.5, y: 0, z: 12.5} #BadGoal Position
+      - !Vector3 {x: 27.5, y: 0, z: 12.5} #BadGoal Position
+      - !Vector3 {x: 12.5, y: 0, z: 17.5} #BadGoal Position
+      - !Vector3 {x: 22.5, y: 0, z: 17.5} #BadGoal Position
+      - !Vector3 {x: 17.5, y: 0, z: 22.5} #BadGoal Position
+      - !Vector3 {x: 27.5, y: 0, z: 22.5} #BadGoal Position
+      - !Vector3 {x: 12.5, y: 0, z: 27.5} #BadGoal Position
+      - !Vector3 {x: 22.5, y: 0, z: 27.5} #BadGoal Position
+      rotations: [0,0,0,0,0,0,0,0] # BadGoal rotation
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+      - !Vector3 {x: 4, y: 4, z: 4} #BadGoal Size
+
+    blackouts: [-20]

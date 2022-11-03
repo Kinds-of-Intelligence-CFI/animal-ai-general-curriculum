@@ -1,0 +1,46 @@
+!ArenaConfig
+arenas:
+  0: !Arena
+    pass_mark: 8
+    t: 750
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 1} #Agent Position
+      rotations: [90] #Agent Rotation
+    - !Item
+      name: GoodGoalBounce #GoodGoalBounce Name
+      sizes:
+      - !Vector3 {x: 1, y: 1, z: 1} #GoodGoalBounce Size
+      - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalBounce Size
+      - !Vector3 {x: 3, y: 3, z: 3} #GoodGoalBounce Size
+      positions:
+      - !Vector3 {x: 24, y: 0, z: 20} #GoodGoalBounce Position
+      - !Vector3 {x: 20, y: 0, z: 22.5} #GoodGoalBounce Position
+      - !Vector3 {x: 16, y: 0, z: 26} #GoodGoalBounce Position
+      rotations: [45, 135,315] #GoodGoalBounce rotation
+    - !Item
+      name: GoodGoalMultiBounce
+      sizes:
+      - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMultiBounce Size
+      - !Vector3 {x: 3, y: 3, z: 3} #GoodGoalMultiBounce Size
+      - !Vector3 {x: 1, y: 1, z: 1} #GoodGoalMultiBounce Size
+      positions:
+      - !Vector3 {x: 24, y: 0, z: 22.5} #GoodGoalMultiBounce Position
+      - !Vector3 {x: 20, y: 0, z: 26} #GoodGoalMultiBounce Position
+      - !Vector3 {x: 16, y: 0, z: 20} #GoodGoalMultiBounce Position
+      rotations: [45, 135,315] #GoodGoalMultiBounce rotation
+    - !Item
+      name: BadGoalBounce
+      sizes:
+      - !Vector3 {x: 3, y: 3, z: 3} #BadGoalBounce Size
+      - !Vector3 {x: 1, y: 1, z: 1} #BadGoalBounce Size
+      - !Vector3 {x: 2, y: 2, z: 2} #BadGoalBounce Size
+      positions:
+      - !Vector3 {x: 24, y: 0, z: 26} #BadGoalBounce Position
+      - !Vector3 {x: 20, y: 0, z: 20} #BadGoalBounce Position
+      - !Vector3 {x: 16, y: 0, z: 22.5} #BadGoalBounce Position
+      rotations: [45, 135,315] #BadGoalBounce rotation
+
+    blackouts: [-10]
