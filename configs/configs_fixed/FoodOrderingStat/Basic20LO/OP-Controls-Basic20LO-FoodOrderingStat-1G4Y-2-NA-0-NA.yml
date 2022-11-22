@@ -1,0 +1,33 @@
+!ArenaConfig
+arenas:
+  -1: !Arena
+    pass_mark: 8.9 #total score to pass
+    t: 750
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 1} #Agent position
+      rotations: [0] #Agent rotation
+    - !Item
+      name: GoodGoalMulti
+      positions:
+      - !Vector3 {x: 15, y: 0, z: 15} #GoodGoalMulti Position
+      - !Vector3 {x: 25, y: 0, z: 15} #GoodGoalMulti Position
+      - !Vector3 {x: 30, y: 0, z: 15} #GoodGoalMulti Position
+      - !Vector3 {x: 10, y: 0, z: 15} #GoodGoalMulti Position
+      rotations: [0,0,0,0]  #GoodGoalMulti rotation
+      sizes:
+      - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMulti Size
+      - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMulti Size
+      - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMulti Size
+      - !Vector3 {x: 2, y: 2, z: 2} #GoodGoalMulti Size
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 15}  #GoodGoal Position
+      rotations: [0]  #GoodGoal rotation
+      sizes:
+      - !Vector3 {x: 2, y: 2, z: 2} #GoodGoal Size
+
+    blackouts: [-20]

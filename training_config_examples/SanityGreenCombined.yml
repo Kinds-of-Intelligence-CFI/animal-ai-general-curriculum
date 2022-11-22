@@ -1,0 +1,107 @@
+!ArenaConfig # OP-Controls-RandBasic-SanityGreen-RND-RND-NA-RND-NA.yml
+arenas:
+  0: !Arena
+    pass_mark: 1
+    t: 500
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      rotations: [-1]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      sizes:
+      - !Vector3 {x: -1, y: -1, z: -1}
+# OP-Controls-RandBasic10LO-SanityGreen-RND-RND-NA-RND-NA.yml
+
+  1: !Arena
+    pass_mark: 1
+    t: 500
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      rotations: [-1]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      sizes:
+      - !Vector3 {x: -1, y: -1, z: -1}
+    blackouts: [-10]
+# OP-Controls-RandBasic15LO-SanityGreen-RND-RND-NA-RND-NA.yml
+
+  2: !Arena
+    pass_mark: 1
+    t: 500
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      rotations: [-1]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      sizes:
+      - !Vector3 {x: -1, y: -1, z: -1}
+    blackouts: [-15]
+# OP-Controls-RandBasic1LO-SanityGreen-RND-RND-NA-RND-NA.yml
+
+  3: !Arena
+    pass_mark: 1
+    t: 500
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      rotations: [-1]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      sizes:
+      - !Vector3 {x: -1, y: -1, z: -1}
+    blackouts: [-1]
+# OP-Controls-RandBasic20LO-SanityGreen-RND-RND-NA-RND-NA.yml
+
+  4: !Arena
+    pass_mark: 1
+    t: 500
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      rotations: [-1]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      sizes:
+      - !Vector3 {x: -1, y: -1, z: -1}
+    blackouts: [-20]
+# OP-Controls-RandBasic5LO-SanityGreen-RND-RND-NA-RND-NA.yml
+
+  5: !Arena
+    pass_mark: 1
+    t: 500
+    items:
+    - !Item
+      name: Agent
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      rotations: [-1]
+    - !Item
+      name: GoodGoal
+      positions:
+      - !Vector3 {x: -1, y: -1, z: -1}
+      sizes:
+      - !Vector3 {x: -1, y: -1, z: -1}
+    blackouts: [-5]
